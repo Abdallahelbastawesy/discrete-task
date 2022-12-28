@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Z BOOK\\source\\repos\\perfect num\\perfect num\\perfect num.csproj",
-      "projectName": "perfect num",
-      "projectPath": "C:\\Users\\Z BOOK\\source\\repos\\perfect num\\perfect num\\perfect num.csproj",
+      "projectUniqueName": "C:\\Users\\Z BOOK\\source\\repos\\prime num\\prime num\\prime num.csproj",
+      "projectName": "prime num",
+      "projectPath": "C:\\Users\\Z BOOK\\source\\repos\\prime num\\prime num\\prime num.csproj",
       "packagesPath": "C:\\Users\\Z BOOK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Z BOOK\\source\\repos\\perfect num\\perfect num\\obj\\",
+      "outputPath": "C:\\Users\\Z BOOK\\source\\repos\\prime num\\prime num\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Z BOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",

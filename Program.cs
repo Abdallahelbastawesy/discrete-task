@@ -1,32 +1,32 @@
-﻿int sum = 0;
-
-Console.WriteLine("please enter the start num");
+﻿using System;
+using System.Globalization;
+Console.WriteLine("please enter start");
 
 int start = int.Parse(Console.ReadLine());
-
-Console.WriteLine("please enter the end num");
+Console.WriteLine("please enter end");
 
 int end = int.Parse(Console.ReadLine());
 
+bool prime = true;
+
+
 for (int i = start; i < end; i++)
 {
-    for (int j = 1; i > j; j++)
+    for (int j = 2; j < i; j++)
     {
         if (i % j == 0)
         {
-            sum = sum + j;
+
+            prime = false;
+            break;
         }
     }
-    if (sum == i)
+    if (prime == true)
     {
         Console.WriteLine(i);
     }
-    sum = 0;
-
+    else
+    {
+        prime = true;
+    }
 }
-
-
-
-
-
-
